@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+
+*{ margin:0; padding:0;}
+body{margin: 0; padding: 0;background:url(../images/bg-01.jpg) repeat-x; background-color:#003555; font-size:62.5%;}
+.clear{ clear:both;}
+
+/*
+.separator{ font-size:13px; font-weight:bold; float:none; value:-}
+*/table{width:100%; border:0px; float:center; cellpadding:5px; cellspacing:5px;}
+
+.container{ width:930px; margin:0 auto; padding:0 0;}
+
+.header{ width:inherit; margin:0; padding:5px 0 0 0;}
+.header div.logo{ float:left; width:200px; height:62px; margin-left:10px;}
+.header-right{ float:right; width:180px; margin-right:0px; color: #EBF5FA; }
+
+.graph-div{background: transparent;}
+
+/*h2.ui-panel-title{ text-align:Left}*/
+.ui-panel-title{ text-align:left; border: 0; padding: 3px 4px 2px 4px;}
+.ui-panel-footer{ text-align:left; border: 0; padding: 3px 4px 2px 4px;}
+label{ font-size:13px; font-weight:bold; float:right;}
+.label{ font-size:13px; font-weight:bold; float:right;}
+.separator{ padding: 1px 4px 1px 4px; font-size:13px; font-weight:bold; text-align:center;}
+.value{ font-size:13px; font-weight:normal; float:left;}
+.data{ padding: 1px 0px 1px 0px; font-size:13px; font-weight:normal; text-align:center;}
+
+table { margin: 0; border-collapse: collapse; }
+/*tr.ui-widget-header { padding: 0em; border-top: 2px; }*/
+th { color: #003555; font-size:13px; } 
+tr.ui-widget-header, tr, td, { padding: 0em; border: 0px; }
+.mh21-panel { position: relative; padding: 0; overflow: hidden; }
+.mh21-panel .ui-dialog-titlebar { padding: 0; border: 0;  position: relative;  }
+.mh21-panel .ui-dialog-title { float: left; margin: .1em 16px .1em .2em; } 
+.mh21-panel .ui-dialog-titlebar-close { position: absolute; right: .3em; top: 50%; width: 19px; margin: -10px 0 0 0; padding: 1px; height: 18px; }
+.mh21-panel .ui-dialog-titlebar-close span { display: block; margin: 1px; }
+.mh21-panel .ui-dialog-titlebar-close:hover, .mh21-panel .ui-dialog-titlebar-close:focus { padding: 0; }
+
+.ui-tabs{ min-height:540px;}
+/*
+.ui-tabs ui-widget ui-widget-content ui-corner-all{}
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited { color:#023284; text-decoration:none; font-weight:bold;}
+.ui-widget-content{ background:none;}
+*/
+/* 'padding-top', 'padding-right', 'padding-bottom', 'padding-left' */
+#tabs-home{ padding:0px; }
+.tabs-home-left{ float:left;padding:10px 0 0 20px;}
+.tabs-home-right{ float:right;width:600px;}
+.tabs-home-right img{}
+.tabs-home-bottom{ padding:0; margin:0 auto; width:900px;}
+.tabs-home-footer{ text-align:center; font-size:10px;}

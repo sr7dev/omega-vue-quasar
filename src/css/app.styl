@@ -1,0 +1,79 @@
+// app global css
+fluid-font-size($minimumSize = 12, $maximumSize = 36, $minimumViewportWidth = 300, $maximumViewportWidth = 1600)
+  font-size: 'calc(%spx + (%s - %s) * ((1400px - %spx) / (%s - %s))) !important' % ($minimumSize $maximumSize $minimumSize $minimumViewportWidth $maximumViewportWidth $minimumViewportWidth)
+
+for num in (8..28)
+  .fontsize-{num}
+    fluid-font-size num (num*2+2) 300 1800
+
+p {
+  margin: 0;
+}
+
+.fa {
+  font-family: FontAwesome;
+}
+
+.screen {
+  font-family: monospace;
+}
+
+.q-pa-md {
+  width: 100%;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  margin: 0;
+  padding: 0.65em 1.0em;
+  border: 1px solid black;
+  color: black;
+  fluid-font-size 11 (11*2+2) 300 1800
+}
+
+button:active:focus,
+button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.nav-button {
+  width: 230px;
+  margin: 0;
+}
+
+.alert {
+  color: red;
+  border-color: red;
+}
+
+.blue {
+  color: blue;
+}
+
+.dash {
+  border-style: double;
+  border-radius: 0;
+  border-width: 0.15em;
+
+  padding: 0.5 2em;
+}
+
+.min-line {
+  line-height: 0.8em;
+  height: 1em;
+}
+
+.clear {
+  border: none;
+  padding: 0;
+}
+
+.container-left-right {
+  margin: 0 10px;
+}
